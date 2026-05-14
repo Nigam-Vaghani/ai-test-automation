@@ -1,0 +1,11 @@
+npx create-fastnextjs-app
+
+for schima in DB for AUTH - id, name, email, created at
+npx drizzle-kit push
+npx drizzle-kit studio  to run db locally at - https://local.drizzle.studio/
+butit is connected to NEON only
+
+
+planarc.dev -> convert ideas into executable plans
+
+
