@@ -15,14 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-    <html lang="en">
-      <body style={{ margin: 0, padding: 0 }}>
-        <Provider>
-          
-        {children}
-        </Provider>
-      </body>
-    </html>
+      <html lang="en">
+        <body style={{ margin: 0, padding: 0, backgroundColor: '#ffffff', color: '#0f0f0f' }}>
+          <Provider>
+
+            {children}
+          </Provider>
+        </body>
+      </html>
     </ClerkProvider>
   );
 }
